@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bzy-hj-Dwq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tweets-->
+        <scene sceneID="Pta-3U-ttq">
+            <objects>
+                <viewController id="1cf-UX-eLE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dNA-bZ-Hlf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ExF-Gd-8oB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tweets" id="KKe-CU-3NM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RB6-yO-2W8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902.89855072463774" y="51.5625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zrn-Bv-RAJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bzy-hj-Dwq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Xxw-Gj-PL3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1cf-UX-eLE" kind="relationship" relationship="rootViewController" id="q0n-Gn-xcZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lkn-oj-FTf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7.2463768115942031" y="51.5625"/>
+        </scene>
+    </scenes>
+</document>
