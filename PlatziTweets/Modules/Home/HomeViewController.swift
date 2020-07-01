@@ -23,8 +23,16 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       setupUI()
+        setupUI()
+       
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+         getPosts()
+    }
+    
     private func setupUI(){
         //1. Asignar datasorce
         //2. registrar celda

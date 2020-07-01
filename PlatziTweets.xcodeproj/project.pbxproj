@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A50F19424AC665E00E330D1 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F19324AC665E00E330D1 /* EndPoints.swift */; };
+		4A50F19624AC66FA00E330D1 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F19524AC66FA00E330D1 /* ErrorResponse.swift */; };
+		4A50F19A24AC676C00E330D1 /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F19924AC676C00E330D1 /* GeneralResponse.swift */; };
+		4A50F19C24AC67A300E330D1 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F19B24AC67A300E330D1 /* LoginRequest.swift */; };
+		4A50F19E24AC67E000E330D1 /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F19D24AC67E000E330D1 /* PostRequest.swift */; };
+		4A50F1A024AC681900E330D1 /* PostRequestLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F19F24AC681800E330D1 /* PostRequestLocation.swift */; };
+		4A50F1A224AC685400E330D1 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F1A124AC685400E330D1 /* RegisterRequest.swift */; };
+		4A50F1A424AC688400E330D1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F1A324AC688400E330D1 /* Post.swift */; };
+		4A50F1A624AC68C100E330D1 /* PostLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F1A524AC68C100E330D1 /* PostLocation.swift */; };
+		4A50F1A824AC68E800E330D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F1A724AC68E800E330D1 /* User.swift */; };
+		4A50F1AA24AC699600E330D1 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A50F1A924AC699600E330D1 /* LoginResponse.swift */; };
 		4A529A9A24A6FBF700463F1D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A529A9924A6FBF700463F1D /* HomeViewController.swift */; };
 		4A529A9E24A6FD6000463F1D /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A529A9C24A6FD6000463F1D /* TweetTableViewCell.swift */; };
 		4A529A9F24A6FD6000463F1D /* TweetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A529A9D24A6FD6000463F1D /* TweetTableViewCell.xib */; };
-		4AC4CD3424A3D9FF00BB4BB9 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD3324A3D9FF00BB4BB9 /* EndPoints.swift */; };
-		4AC4CD3A24A3DA3200BB4BB9 /* PostLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD3524A3DA3200BB4BB9 /* PostLocation.swift */; };
-		4AC4CD3B24A3DA3200BB4BB9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD3624A3DA3200BB4BB9 /* User.swift */; };
-		4AC4CD3E24A3DA3200BB4BB9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD3924A3DA3200BB4BB9 /* Post.swift */; };
-		4AC4CD4524A3DC9C00BB4BB9 /* GeneralResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD4224A3DC9C00BB4BB9 /* GeneralResponse.swift */; };
-		4AC4CD4624A3DC9C00BB4BB9 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD4324A3DC9C00BB4BB9 /* ErrorResponse.swift */; };
-		4AC4CD4724A3DC9C00BB4BB9 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD4424A3DC9C00BB4BB9 /* LoginResponse.swift */; };
-		4AC4CD4C24A3DCB400BB4BB9 /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD4824A3DCB400BB4BB9 /* PostRequest.swift */; };
-		4AC4CD4D24A3DCB400BB4BB9 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD4924A3DCB400BB4BB9 /* RegisterRequest.swift */; };
-		4AC4CD4E24A3DCB400BB4BB9 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD4A24A3DCB400BB4BB9 /* LoginRequest.swift */; };
-		4AC4CD4F24A3DCB400BB4BB9 /* PostRequestLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4CD4B24A3DCB400BB4BB9 /* PostRequestLocation.swift */; };
+		4ACD03C424AAFC9300026E17 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD03C324AAFC9300026E17 /* AddPostViewController.swift */; };
 		4AD2775D24A2C7C600B0DD90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2775C24A2C7C600B0DD90 /* AppDelegate.swift */; };
 		4AD2776124A2C7C600B0DD90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2776024A2C7C600B0DD90 /* ViewController.swift */; };
 		4AD2776624A2C7CE00B0DD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2776524A2C7CE00B0DD90 /* Assets.xcassets */; };
@@ -35,20 +36,21 @@
 
 /* Begin PBXFileReference section */
 		05FAE45744933294CEFECA97 /* Pods-PlatziTweets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatziTweets.debug.xcconfig"; path = "Target Support Files/Pods-PlatziTweets/Pods-PlatziTweets.debug.xcconfig"; sourceTree = "<group>"; };
+		4A50F19324AC665E00E330D1 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		4A50F19524AC66FA00E330D1 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		4A50F19924AC676C00E330D1 /* GeneralResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralResponse.swift; sourceTree = "<group>"; };
+		4A50F19B24AC67A300E330D1 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		4A50F19D24AC67E000E330D1 /* PostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
+		4A50F19F24AC681800E330D1 /* PostRequestLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequestLocation.swift; sourceTree = "<group>"; };
+		4A50F1A124AC685400E330D1 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
+		4A50F1A324AC688400E330D1 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4A50F1A524AC68C100E330D1 /* PostLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLocation.swift; sourceTree = "<group>"; };
+		4A50F1A724AC68E800E330D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4A50F1A924AC699600E330D1 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		4A529A9924A6FBF700463F1D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4A529A9C24A6FD6000463F1D /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 		4A529A9D24A6FD6000463F1D /* TweetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetTableViewCell.xib; sourceTree = "<group>"; };
-		4AC4CD3324A3D9FF00BB4BB9 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndPoints.swift; path = "../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/EndPoints.swift"; sourceTree = "<group>"; };
-		4AC4CD3524A3DA3200BB4BB9 /* PostLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostLocation.swift; path = "../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/Models/PostLocation.swift"; sourceTree = "<group>"; };
-		4AC4CD3624A3DA3200BB4BB9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/Models/User.swift"; sourceTree = "<group>"; };
-		4AC4CD3924A3DA3200BB4BB9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = "../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/Models/Post.swift"; sourceTree = "<group>"; };
-		4AC4CD4224A3DC9C00BB4BB9 /* GeneralResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneralResponse.swift; path = "../../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/Models/Responses/GeneralResponse.swift"; sourceTree = "<group>"; };
-		4AC4CD4324A3DC9C00BB4BB9 /* ErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorResponse.swift; path = "../../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/Models/Responses/ErrorResponse.swift"; sourceTree = "<group>"; };
-		4AC4CD4424A3DC9C00BB4BB9 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginResponse.swift; path = "../../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/Models/Responses/LoginResponse.swift"; sourceTree = "<group>"; };
-		4AC4CD4824A3DCB400BB4BB9 /* PostRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostRequest.swift; path = "../../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/Models/Requests/PostRequest.swift"; sourceTree = "<group>"; };
-		4AC4CD4924A3DCB400BB4BB9 /* RegisterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterRequest.swift; path = "../../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/Models/Requests/RegisterRequest.swift"; sourceTree = "<group>"; };
-		4AC4CD4A24A3DCB400BB4BB9 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginRequest.swift; path = "../../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/Models/Requests/LoginRequest.swift"; sourceTree = "<group>"; };
-		4AC4CD4B24A3DCB400BB4BB9 /* PostRequestLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostRequestLocation.swift; path = "../../../../../Downloads/platzi-tweets-clase-22-conexion-api/PlatziTweets/Commons/Models/Requests/PostRequestLocation.swift"; sourceTree = "<group>"; };
+		4ACD03C324AAFC9300026E17 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 		4AD2775924A2C7C600B0DD90 /* PlatziTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD2775C24A2C7C600B0DD90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AD2776024A2C7C600B0DD90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,10 +90,10 @@
 		4AC4CD3F24A3DBD700BB4BB9 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
-				4AC4CD4A24A3DCB400BB4BB9 /* LoginRequest.swift */,
-				4AC4CD4824A3DCB400BB4BB9 /* PostRequest.swift */,
-				4AC4CD4B24A3DCB400BB4BB9 /* PostRequestLocation.swift */,
-				4AC4CD4924A3DCB400BB4BB9 /* RegisterRequest.swift */,
+				4A50F19B24AC67A300E330D1 /* LoginRequest.swift */,
+				4A50F19D24AC67E000E330D1 /* PostRequest.swift */,
+				4A50F19F24AC681800E330D1 /* PostRequestLocation.swift */,
+				4A50F1A124AC685400E330D1 /* RegisterRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -99,9 +101,9 @@
 		4AC4CD4124A3DC1800BB4BB9 /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				4AC4CD4324A3DC9C00BB4BB9 /* ErrorResponse.swift */,
-				4AC4CD4224A3DC9C00BB4BB9 /* GeneralResponse.swift */,
-				4AC4CD4424A3DC9C00BB4BB9 /* LoginResponse.swift */,
+				4A50F19524AC66FA00E330D1 /* ErrorResponse.swift */,
+				4A50F19924AC676C00E330D1 /* GeneralResponse.swift */,
+				4A50F1A924AC699600E330D1 /* LoginResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -137,7 +139,7 @@
 		4AD2777024A2CB7400B0DD90 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				4AC4CD3324A3D9FF00BB4BB9 /* EndPoints.swift */,
+				4A50F19324AC665E00E330D1 /* EndPoints.swift */,
 				4AD2778324A3117C00B0DD90 /* Models */,
 				4AD2775C24A2C7C600B0DD90 /* AppDelegate.swift */,
 				4AD2776024A2C7C600B0DD90 /* ViewController.swift */,
@@ -173,6 +175,7 @@
 				4A529A9B24A6FD2E00463F1D /* Cells */,
 				4AD2777C24A3095700B0DD90 /* Home.storyboard */,
 				4A529A9924A6FBF700463F1D /* HomeViewController.swift */,
+				4ACD03C324AAFC9300026E17 /* AddPostViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -182,9 +185,9 @@
 			children = (
 				4AC4CD4124A3DC1800BB4BB9 /* Response */,
 				4AC4CD3F24A3DBD700BB4BB9 /* Requests */,
-				4AC4CD3924A3DA3200BB4BB9 /* Post.swift */,
-				4AC4CD3524A3DA3200BB4BB9 /* PostLocation.swift */,
-				4AC4CD3624A3DA3200BB4BB9 /* User.swift */,
+				4A50F1A324AC688400E330D1 /* Post.swift */,
+				4A50F1A524AC68C100E330D1 /* PostLocation.swift */,
+				4A50F1A724AC68E800E330D1 /* User.swift */,
 			);
 			name = Models;
 			path = ../Models;
@@ -325,23 +328,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD2777624A2FDFA00B0DD90 /* LoginViewController.swift in Sources */,
-				4AC4CD4C24A3DCB400BB4BB9 /* PostRequest.swift in Sources */,
 				4AD2777A24A2FE7800B0DD90 /* WelcomeViewController.swift in Sources */,
+				4A50F1A224AC685400E330D1 /* RegisterRequest.swift in Sources */,
+				4A50F19C24AC67A300E330D1 /* LoginRequest.swift in Sources */,
+				4ACD03C424AAFC9300026E17 /* AddPostViewController.swift in Sources */,
 				4A529A9A24A6FBF700463F1D /* HomeViewController.swift in Sources */,
-				4AC4CD4E24A3DCB400BB4BB9 /* LoginRequest.swift in Sources */,
-				4AC4CD4724A3DC9C00BB4BB9 /* LoginResponse.swift in Sources */,
-				4AC4CD4D24A3DCB400BB4BB9 /* RegisterRequest.swift in Sources */,
-				4AC4CD3A24A3DA3200BB4BB9 /* PostLocation.swift in Sources */,
+				4A50F19E24AC67E000E330D1 /* PostRequest.swift in Sources */,
+				4A50F1A824AC68E800E330D1 /* User.swift in Sources */,
+				4A50F19424AC665E00E330D1 /* EndPoints.swift in Sources */,
+				4A50F19A24AC676C00E330D1 /* GeneralResponse.swift in Sources */,
 				4AD2776124A2C7C600B0DD90 /* ViewController.swift in Sources */,
-				4AC4CD3B24A3DA3200BB4BB9 /* User.swift in Sources */,
-				4AC4CD3424A3D9FF00BB4BB9 /* EndPoints.swift in Sources */,
 				4A529A9E24A6FD6000463F1D /* TweetTableViewCell.swift in Sources */,
-				4AC4CD3E24A3DA3200BB4BB9 /* Post.swift in Sources */,
 				4AD2775D24A2C7C600B0DD90 /* AppDelegate.swift in Sources */,
-				4AC4CD4F24A3DCB400BB4BB9 /* PostRequestLocation.swift in Sources */,
-				4AC4CD4624A3DC9C00BB4BB9 /* ErrorResponse.swift in Sources */,
+				4A50F1AA24AC699600E330D1 /* LoginResponse.swift in Sources */,
+				4A50F1A024AC681900E330D1 /* PostRequestLocation.swift in Sources */,
+				4A50F1A624AC68C100E330D1 /* PostLocation.swift in Sources */,
+				4A50F19624AC66FA00E330D1 /* ErrorResponse.swift in Sources */,
 				4AD2777824A2FE3400B0DD90 /* RegisterViewController.swift in Sources */,
-				4AC4CD4524A3DC9C00BB4BB9 /* GeneralResponse.swift in Sources */,
+				4A50F1A424AC688400E330D1 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
